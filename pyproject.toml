@@ -6,7 +6,7 @@ authors = [
     {name = "Your Name",email = "you@example.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11, <4.0"
 dependencies = [
     "numpy (>=2.2.6,<3.0.0)",
     "xarray (>=2025.4.0,<2026.0.0)",
@@ -15,7 +15,10 @@ dependencies = [
     "holoviews (>=1.20.2,<2.0.0)",
     "panel (>=1.7.1,<2.0.0)",
     "jupyter (>=1.1.1,<2.0.0)",
-    "ipykernel (>=6.29.5,<7.0.0)"
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "jupyter-bokeh (>=4.0.5,<5.0.0)",
+    "scipy (>=1.16.0,<2.0.0)",
+    "pysindy (>=1.7.5,<2.0.0)"
 ]
 
 [tool.poetry]
